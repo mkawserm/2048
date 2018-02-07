@@ -1,6 +1,9 @@
 # 2048
 Qbified version of popular 2048 puzzle game
 
+![alt tag](http://habrastorage.org/files/3f3/67b/6c5/3f367b6c5b0c4502889bb82416f69a97.png)
+
+
 What is Qb?
 ------------------------------------------
 Qb is a tool for the people who like to tinker.
