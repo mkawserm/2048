@@ -14,10 +14,12 @@ Rectangle {
 
     Settings {
         id: settings;
+        category: __main__app.appNamespace
         property alias columns: board.col;
         property alias rows: board.row;
         property alias bestScore: scoreBoard.bestScore;
         property alias boardSize: optionsWnd.boardSize
+
         //        onColumnsChanged: {
         //            __main__app.setValue("columns",board.col)
         //        }
