@@ -1,0 +1,15 @@
+{
+    "name"			: "2048",
+	"version"		: "1.0.0",
+	"build"         : 1,
+    "namespace"		: "com.github.slima4.2048",
+	
+	"supportedOs"   : ["android","ios","osx","linux","windows"],
+
+	"category"      : "Games",
+	"subCategory"   : "",
+	"genre"   		: "Puzzle",
+
+	"author"		: [{"name":"Slim","link":"https://github.com/slima4"}],
+	"projectLink"	: [{"title":"Git","link":"https://github.com/slima4/2048-qml"}]
+}
