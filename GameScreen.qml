@@ -4,6 +4,8 @@ import Qt.labs.settings 1.0
 
 import "logic.js" as Logic
 
+import Qb.Core 1.0
+
 Rectangle {
     id: window;
     visible: true
@@ -12,42 +14,16 @@ Rectangle {
     color: "#fbf8ef";
     Keys.forwardTo: [keyFocus]
 
-    Settings {
-        id: settings;
-        category: __main__app.appNamespace
-        property alias columns: board.col;
-        property alias rows: board.row;
-        property alias bestScore: scoreBoard.bestScore;
-        property alias boardSize: optionsWnd.boardSize
-
-        //        onColumnsChanged: {
-        //            __main__app.setValue("columns",board.col)
-        //        }
-        //        onRowsChanged: {
-        //            __main__app.setValue("rows",board.row)
-        //        }
-        //        onBestScoreChanged: {
-        //            __main__app.setValue("bestScore",scoreBoard.bestScore)
-        //        }
-        //        onBoardSizeChanged: {
-        //            __main__app.setValue("boardSize",optionsWnd.boardSize)
-        //        }
-        //        Component.onCompleted: {
-        //            settings.columns = __main__app.getValue("columns",4);
-        //            settings.rows = __main__app.getValue("rows",4);
-        //            settings.bestScore = __main__app.getValue("bestScore",0);
-        //            settings.boardSize = __main__app.getValue("boardSize",1);
-        //            board.col = settings.columns;
-        //            board.row = settings.rows;
-        //            Logic.columns = settings.columns;
-        //            Logic.rows = settings.rows;
-        //        }
-
-    }
-
     property alias board: board;
     property alias scoreBoard: scoreBoard;
     property alias gameOverWnd: gameOverWnd
+
+    property alias row: board.row
+    property alias col: board.col
+    property alias boardWidth: board.width
+    property alias boardHeight: board.height
+    property alias bestScore: scoreBoard.bestScore
+    property alias boardSize: optionsWnd.boardSize
 
     ScoreBoard {
         id: scoreBoard;
@@ -163,7 +139,7 @@ Rectangle {
     }
 
     Component.onCompleted: {
-        Logic.init(board.col,board.row,window);
+        Logic.init(window.col,window.row,window);
     }
 
     Component.onDestruction: {

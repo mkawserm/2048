@@ -11,6 +11,7 @@ QbApp{
     id: __main__app
     Keys.forwardTo: [__game_screen]
 
+
     Pane{
         topPadding: 0
         bottomPadding: 0
@@ -40,5 +41,13 @@ QbApp{
 	        anchors.fill: parent
 	    }
 
+    }
+    QbSettings {
+        id: settings
+        name: "GameSettings"
+        property alias columns: __game_screen.col
+        property alias rows: __game_screen.row
+        property alias bestScore: __game_screen.bestScore
+        property alias boardSize: __game_screen.boardSize
     }
 }

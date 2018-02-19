@@ -254,7 +254,7 @@ function resizeHandler(){
                 object.height = cellHeight;
                 object.x = cellWidth * j;
                 object.y = cellHeight * i;
-                object.size = Qt.size(baseObj.board.width / rows - 10, baseObj.board.height / columns - 10);
+                object.size = Qt.size(baseObj.boardWidth / rows - 10, baseObj.boardHeight / columns - 10);
             }
         }
     }
