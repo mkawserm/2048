@@ -11,5 +11,5 @@
 	"genre"   		: "Puzzle",
 
 	"author"		: [{"name":"Slim","link":"https://github.com/slima4"}],
-	"projectLink"	: [{"title":"Git","link":"https://github.com/slima4/2048-qml"}]
+	"projectLink"	: [{"name":"GitHub","link":"https://github.com/slima4/2048-qml"}]
 }
