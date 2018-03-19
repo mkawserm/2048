@@ -2,14 +2,17 @@
     "name"			: "2048",
 	"version"		: "1.0.0",
 	"build"         : 1,
-    "namespace"		: "com.github.slima4.2048",
+    "namespace"		: "com.github.mkawserm.2048",
 	
 	"supportedOs"   : ["android","ios","osx","linux","windows"],
 
 	"category"      : "Games",
-	"subCategory"   : "",
+	"subCategory"   : "Puzzle",
 	"genre"   		: "Puzzle",
 
-	"author"		: [{"name":"Slim","link":"https://github.com/slima4"}],
-	"projectLink"	: [{"name":"GitHub","link":"https://github.com/slima4/2048-qml"}]
+	"author"		: [
+		{"name" : "Slim" , "link" : "https://github.com/slima4"},
+		{"name" : "Kawser" , "link" : "https://github.com/mkawserm" }
+	],
+	"projectLink"	: [{"name":"GitHub","link":"https://github.com/mkawserm/2048"}]
 }
