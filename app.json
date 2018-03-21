@@ -1,7 +1,7 @@
 {
     "name"			: "2048",
-	"version"		: "1.0.1",
-	"build"         : 2,
+	"version"		: "1.0.2",
+	"build"         : 3,
     "namespace"		: "com.github.mkawserm.2048",
 	
 	"supportedOs"   : ["android","ios","osx","linux","windows"],
@@ -14,5 +14,5 @@
 		{"name" : "Slim" , "link" : "https://github.com/slima4"},
 		{"name" : "Kawser" , "link" : "https://github.com/mkawserm" }
 	],
-	"projectLink"	: [{"name":"GitHub","link":"https://github.com/mkawserm/2048"}]
+	"projectLink"	: [{"name":"GitHub","link":"mkawserm/2048"}]
 }
