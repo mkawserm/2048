@@ -1,24 +1,25 @@
 {
-    "name"			: "2048",
-	"version"		: "1.0.4",
-	"build"         : 4,
-    "namespace"		: "com.github.mkawserm.2048",
+    "name"			   : "2048",
+	"version"		   : "1.0.5",
+	"build"            : 5,
+    "namespace"		   : "com.github.mkawserm.2048",
 	
-	"supportedOs"   : ["android","ios","osx","linux","windows"],
+	"supportedOs"      : ["android","ios","osx","linux","windows"],
 
-	"category"      : "Games",
-	"subCategory"   : "Puzzle",
-	"genre"   		: "Puzzle",
+	"category"         : "Games",
+	"subCategory"      : "Puzzle",
+	"genre"   		   : "Puzzle",
 
-	"runtimeMode"   : "ZPACK",
-    "minQbVersion"  : "1",
-    "variant"       : "app",
+    "minQbVersion"     : "1",
+    "appVariant"       : "APP",
+	"packageVariant"   : "QAP",    
 
-    "description"   : "Qbified version of popular 2048 puzzle game",
+    "description"      : "Qbified version of popular 2048 puzzle game",
 
-	"author"		: [
-		{"name" : "Slim" , "link" : "https://github.com/slima4"},
-		{"name" : "Kawser" , "link" : "https://github.com/mkawserm" }
+	"author"		   : [
+			{"name" : "Slim" , "link" : "https://github.com/slima4"},
+			{"name" : "Kawser" , "link" : "https://github.com/mkawserm" }
 	],
+	
 	"projectLink"	: [{"name":"GitHub","link":"mkawserm/2048"}]
 }
