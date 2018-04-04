@@ -27,7 +27,7 @@ QbApp{
             anchors.right: parent.right
             text: QbMF3.icon("mf-close")
             font.family: QbMF3.family
-            font.pixelSize: QbUtility.scaledNumber(25)
+            font.pixelSize: QbCoreOne.scale(25)
             z: 100
             visible: Qt.platform.os === "android" || Qt.platform.os === "ios"
             onClicked: {
