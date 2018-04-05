@@ -1,7 +1,7 @@
 # 2048
 Qbified version of popular 2048 puzzle game
 
-![alt tag](https://lh3.googleusercontent.com/85_MtCkZCC5G-BSDNtS61BpNLnuhxSQTasNHotvpziUPYudskX_DZk6v08FBb4PGocAJdLDuT-tJ41kYIdEEfQxNdJ2Bi2HoRvMwMrQRXmI8pxFO00RrsYTx81URgOqtnUk4Szi8cEAP3q1bup8GetCu1nSXyM7Tdnqgd1j7S8mTDtdMt_BwQrLhV1ehau8w_SW9hccNHrkD1r_zwaBQwyjXhFva9dJD5g-bak0tvCn4YDkOxm-nT8UC12UNz4Bt7zPv5nLQnt77kkIkDTYobqPM6-0K7jyqeRf0l1qjBqwsQzJBJ9gLT9avB0bpkGVGYoBvdwbxnpQfI7B23K7lrv7PM2OnOvQoY6K8PMkt1IJKnKyq-FtoACFD2vDV5hLKtYdLUwBCURWMXR209QdfHvYIXtrcsOgD1sDDTs0sS4shZlOFCgYWEH-6_LZJgCXWHngnzwQkrbR3fAdwYFfuxrOUaGka424k0-ajBf6BzuWvwo6A6WDScnY-RNdfr-3LFmP3oNPr1eaQIHDTRjbGaB7ib7Taeljhml4OCRqDmoKHsoiE_1QM2-pMvpI8OQ6OFSSKSM_DdRNE0JcXuWb-N5iSY6VFeESwcbJaCF8=w462-h568-no)
+![alt tag](https://1.bp.blogspot.com/-xGEIZ5x0cSM/WsXTpj0RZPI/AAAAAAAAAiQ/0fCf-oeNDaswSE_U89FN2wXhbqOEYcgCgCKgBGAs/s1600/Screen%2BShot%2B2018-03-19%2Bat%2B10.53.11%2BPM%2B1.png)
 
 
 What is Qb?
